@@ -6,7 +6,7 @@ import authRoute from "./routes/authRoute.js";
 import cors from "cors";
 import categoryRoute from "./routes/categoryRoute.js";
 import productRoute from "./routes/productRoute.js";
-//import path from "path";
+import path from "path";
 
 const app = express();
 
