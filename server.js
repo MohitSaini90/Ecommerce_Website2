@@ -7,12 +7,16 @@ import cors from "cors";
 import categoryRoute from "./routes/categoryRoute.js";
 import productRoute from "./routes/productRoute.js";
 import path from "path";
-
+import { fileURLToPath} from "url";
 const app = express();
 
 //configure
 dotenv.config();
 connectDB();
+
+//ESModule fix
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 //For forgot password UI
 app.set("view engine", "ejs");
