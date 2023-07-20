@@ -11,9 +11,9 @@ import nodemailer from "nodemailer";
 dotenv.config();
 
 /* Twilio whastsapp api(didn't work)*/
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-const client = twilio(accountSid, authToken);
+//const accountSid = process.env.TWILIO_ACCOUNT_SID;
+c//onst authToken = process.env.TWILIO_AUTH_TOKEN;
+//const client = twilio(accountSid, authToken);
 /*Twilio whastsapp api */
 
 export const createProductController = async (req, res) => {
