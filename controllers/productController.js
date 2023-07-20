@@ -12,7 +12,7 @@ dotenv.config();
 
 /* Twilio whastsapp api(didn't work)*/
 //const accountSid = process.env.TWILIO_ACCOUNT_SID;
-c//onst authToken = process.env.TWILIO_AUTH_TOKEN;
+//Const authToken = process.env.TWILIO_AUTH_TOKEN;
 //const client = twilio(accountSid, authToken);
 /*Twilio whastsapp api */
 
